@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.1/fonts/remixicon.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Your navigation bar or header content -->
+      <a href="#" class="logo">Testing</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="top-btnn">
+        <a href="#" class="h-btn">Contact Me</a>
+      </div>
+    </header>
+    <!-- section home-->
+    <section class="hero" id="home">
+      <div class="main-content" data-aos="fade-in">
+        <h4>Hello There!</h4>
+        <h1>I am <span>Dzul Jalali Wal Ikram</span></h1>
+        <p>
+          A student at the University of Logistics and Business International
+          (ULBI), majoring in Informatics Engineering. Hard working, always
+          willing, keen to learn and develop new skills and things, and able to
+          adjust to to a new work environment. Interested in Machine Learning
+          and working in Data, Fullstack Developer and Backend Developer. I
+          would love to work in that particular area.
+        </p>
+        <div class="social">
+          <a href="https://www.instagram.com/dzuljalali_/"
+            ><i class="ri-instagram-fill"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/dzul-jalali-wal-ikram/"
+            ><i class="ri-linkedin-box-fill"></i
+          ></a>
+        </div>
+
+        <div class="main-btn">
+          <a href="#" class="btn">Hire Me</a>
+          <a href="#" class="btn btn2" onclick="downloadFile()">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- section about-->
+    <section class="about" id="about">
+      <div class="about-img" data-aos="zoom-in-down">
+        <img src="../img/about-img.png" alt="" />
+      </div>
+      <div class="about-text" data-aos="zoom-in-up">
+        <h2>
+          I am a Web Developer <br />
+          & a Data Enthusiast
+        </h2>
+        <div class="exp-area">
+          <p class="exp">Experience: <span>1 Year</span></p>
+          <p class="exp">
+            Speciality:
+            <span>Web Developer, API Developer, Data Scientist</span>
+          </p>
+          <p class="exp">Address: <span>Bandung, West Java</span></p>
+          <p class="exp">Work Email: <span>dzuljalali.work@gmail.com </span></p>
+          <p class="exp">Whatsapp: <span>081238988830 </span></p>
+        </div>
+        <a href="https://github.com/DzulJalali?tab=repositories" class="btn"
+          >View All Projects</a
+        >
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="center-text" data-aos="fade-down">
+        <h2>My <span>Portfolio</span></h2>
+      </div>
+
+      <div class="portfolio-content" data-aos="zoom-in-up">
+        <div class="row">
+          <img src="../img/dikpora.png" alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Full-Stack Web Development</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://ppdb.dikpora.dompukab.go.id/"
+                ><i class="ri-pages-fill"></i
+              ></a>
+            </div>
+          </div>
+          <h4>Website Development</h4>
+          <p>
+            Developing a website to register students in elementary and middle
+            schools of Kabupaten Dompu using React.js.
+          </p>
+        </div>
+
+        <div class="row">
+          <img src="../img/covid.png" alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Web Development</h5>
+            </div>
+            <div class="row-icon">
+              <a
+                href="https://github.com/DzulJalali/Covid-Classification-With-SVC"
+                ><i class="ri-github-fill"></i
+              ></a>
+            </div>
+          </div>
+          <h4>Frontend Development</h4>
+          <p>
+            Classifying Covid19 based on experienced symptoms using Support
+            Vector Classification (SVC) within a simple website built using
+            Django."
+          </p>
+        </div>
+
+        <div class="row">
+          <img src="../img/kostrakan-logo.PNG" alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Backend Development</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://github.com/DzulJalali/Kostrakan-Laravel">
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+          <h4>Website Development</h4>
+          <p>
+            Developing a website to Search Application for Boarding Houses and
+            Rentals based on Content-Based Filtering
+          </p>
+        </div>
+        <div class="row">
+          <img src="../img/machine-learning.jpg" alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Machine Learning</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://github.com/DzulJalali/Covid-Classification-Model"
+                ><i class="ri-github-fill"></i
+              ></a>
+            </div>
+          </div>
+          <h4>Machine Learning Model to Detect Covid</h4>
+          <p>
+            A Machine Learning Model to classify Covid-19 using SVM (Support
+            Vector Machine) SVC.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="center-text" data-aos="fade-up">
+        <h2>Contact <span>Me</span></h2>
+      </div>
+
+      <div class="contact-form" data-aos="zoom-in-down">
+        <form action="">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Email Address" required />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Write your Message..."
+            required
+          ></textarea>
+          <input type="submit" name="" value="Send Message" class="send-btn" />
+        </form>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="copyright">
+        <p>2023 Dzul Jalali Wal Ikram, All Rights Reserved</p>
+      </div>
+      <a href="#home" class="scroll-top"><i class="ri-arrow-up-s-fill"></i></a>
+    </div>
+    <script src="../js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
+  </body>
+</html>
